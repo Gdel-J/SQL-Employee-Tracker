@@ -1,38 +1,33 @@
 USE employee_db;
 
+-- Inserts names of departments into department table
 INSERT INTO  department (name)
-VALUES ("Sales");
-INSERT INTO departmant (name)
-VALUES ("Engineering");
-INSERT INTO department (name)
-VALUES ("Finance");
-INSERT INTO department (name)
-VALUES ("Legal");
+VALUES 
+("Sales"),
+("Engineering"),
+("Finance"),
+("Legal");
 
-INSERT INTO role (title, salary, department_id)
-VALUES ("Sales Lead",100000, 1);
-INSERT INTO role (title, salary department_id)
-VALUES ("Lead Engineer", 150000, 2 );
-INSERT INTO role (title, salary department_id)
-VALUES ("Software Engineer", 120000,2);
-INSERT INTO  role (tilte, salary department_id)
-VALUES ("Accountant", 125000,3);
-INSERT INTO role (title, salary,department_id)
-VALUES("Legal Team Lead", 250000,4);
+-- Inserts roles of employeee into role table
+INSERT INTO role
+ (title, salary, department_id)
 
-INSERT INTO employee (first_name,last_name, role_id, manager_id)
-VALUES("John","Doe", 1, 3);
-INSERT INTO employee (first_name,last_name, role_id, manager_id)
-VALUES ("Mike", "Chan", 2, 1);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ( "Asley","Rodriguez", 3, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Kevin", "Tupik", 4, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Kunal", "Singh", 1, 2);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Malia", "Brown", 5, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Sarah", "Lourd", 2, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Tom", "Allen", 4, 7);
+VALUES 
+("Sales Lead",100000, 1),
+("Lead Engineer", 150000, 2 ),
+("Software Engineer", 120000,2),
+("Accountant", 125000,3),
+("Legal Team Lead", 250000,4);
+
+-- Inserts employee information into employee table
+INSERT INTO employee 
+(first_name,last_name, role_id, manager_id)
+VALUES
+("John","Doe", 1, 3),
+("Mike", "Chan", 2, 1),
+( "Asley","Rodriguez", 3, null),
+("Kevin", "Tupik", 4, 3),
+("Kunal", "Singh", 1, 2),
+("Malia", "Brown", 5, null),
+("Sarah", "Lourd", 2, null),
+("Tom", "Allen", 4, 7);
