@@ -10,6 +10,7 @@ const connection = require("./db/connection");
 connection.connect(err => {
     if (err) throw err;
     console.log('Database is connected.');
+    console.log('WELCOME TO SQL-EMPLOYEE-TRACKER')
     start();
 });
 
@@ -162,9 +163,9 @@ async function addRole() {
   start();
 }
 async function updateEmployee() {
-  const employeePrompt = await dbQueries.getAllEmployees();
+  const employeePrompt = await dbQuery.getAllEmployees();
 
-  const rolesPrompt = await dbQueries.viewAllRoles();
+  const rolesPrompt = await dbQuery.viewAllRoles();
   console.log(rolesPrompt);
 
   const employeePromptToSelct = employeePrompt.map(({ id, first_name, last_name }) => ({

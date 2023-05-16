@@ -33,7 +33,7 @@ Type "mysql -u root -p" in the terminal and enter your personal MySQL password. 
 
 
 
-First:
+                         First:
 
 In order to use this project make sure to have the following programs installed on your computer:
 
@@ -48,7 +48,7 @@ In order to use this project make sure to have the following programs installed 
 
 
 
-Second:
+                        Second:
 
 In order to initialize the project:
 
@@ -61,11 +61,17 @@ Clone: inside GitBash, use the command `git clone paste link here`
 
 link to application : 
 
-https://github.com/Gdel-J/
+https://github.com/Gdel-J/SQL-Employee-Tracker.git
+
+
+the walkthrough video link:
+
+https://drive.google.com/file/d/1OA_RGZlASoYS0M0V4pROrRZmOBo9QG9E/view
 
 
 
-Third: 
+
+                        Third: 
 
 If you don't have the dependencies :
 In the terminal, use the command `npm init -y` to initialize and create a `package.json file` .
@@ -77,14 +83,18 @@ Then you will have to install
 
 You will need to install `npm i mysql2` 
 
+ 
 
-you will need to run 
+
+You will need to run :
 
 `mysql -u root -p`
 
 then
 `SOURCE db/schema.sql`
+
 `SOURCE db/seeds.sql`
+
  to initialize the database.
 
 Finally,You will want to run `node server.js` to start the app.
@@ -94,26 +104,22 @@ Finally,You will want to run `node server.js` to start the app.
 ## Usage
 
 
--Open terminal in "index.js" and run the command "npm start".
--Select a desired task and follow the Inquirer prompts.
--To exit application, choose "EXIT" from task prompt list.
+-Open the terminal  and run the command `npm start` or `node server`,
+
+-Select a desired task and follow the Inquirer prompts,
+
+-To exit application, choose "EXIT" from task prompt list,
+
 -Please reference the video demonstration above as needed.
 
 
-
 The application begining:
-
 ![Screenshot 1]()
+
+
 ![Screenshot 2]()
-![Screenshot 3]()
 
 
-the walkthrough video link:
-
-
-link to application : 
-
-https://github.com/Gdel-J/
 
 
 
