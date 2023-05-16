@@ -113,14 +113,14 @@ Finally,You will want to run `node server.js` to start the app.
 -Please reference the video demonstration above as needed.
 
 
-The application begining:
-![Screenshot 1]()
+When the application starts:
+
+![Screenshot 1](https://github.com/Gdel-J/SQL-Employee-Tracker/assets/120201085/603e57dc-e1eb-4aa7-91a0-d58e7930e847)
 
 
-![Screenshot 2]()
 
 
-
+![Screenshot 2](https://github.com/Gdel-J/SQL-Employee-Tracker/assets/120201085/6d6dd3f8-d9e4-416f-8ddc-ba26edee08ef)
 
 
 ## License
