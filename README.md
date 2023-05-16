@@ -33,7 +33,7 @@ Type "mysql -u root -p" in the terminal and enter your personal MySQL password. 
 
 
 
-                         First:
+                                                First:
 
 In order to use this project make sure to have the following programs installed on your computer:
 
@@ -48,7 +48,7 @@ In order to use this project make sure to have the following programs installed 
 
 
 
-                        Second:
+                                                Second:
 
 In order to initialize the project:
 
@@ -66,12 +66,11 @@ https://github.com/Gdel-J/SQL-Employee-Tracker.git
 
 the walkthrough video link:
 
-https://drive.google.com/file/d/1OA_RGZlASoYS0M0V4pROrRZmOBo9QG9E/view
+https://drive.google.com/file/d/1eRwZ_BWeHINcYJk4eVNLWA5iuAkkFZox/view?usp=share_link
 
 
 
-
-                        Third: 
+                                                 Third: 
 
 If you don't have the dependencies :
 In the terminal, use the command `npm init -y` to initialize and create a `package.json file` .
