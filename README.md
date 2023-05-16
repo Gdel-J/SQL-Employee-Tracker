@@ -123,6 +123,10 @@ When the application starts:
 ![Screenshot 2](https://github.com/Gdel-J/SQL-Employee-Tracker/assets/120201085/6d6dd3f8-d9e4-416f-8ddc-ba26edee08ef)
 
 
+
+https://github.com/Gdel-J/SQL-Employee-Tracker/assets/120201085/735711e9-ccad-4c0b-af9d-07d807deadfe
+
+
 ## License
 
 This project is licensed under the MIT license.
